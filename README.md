@@ -9,9 +9,4 @@ given string.
 processor and we'll be using it to sort through the github api data.
 
 + Register a new [token on
-github](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
-under the delete repo scope. Paste this token into a .txt file somewhere on your machine.
-It doesn't matter where as long as you know the full path to that file.
-____
-Reading the token and password from your machine prevents your password and token from
-being stored in your bash history.  
+github](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) and give it both the `repo` scope and `delete_repo` scope. Copy this token to your clipboard. *Don't forget to delete this token after you're done.*
